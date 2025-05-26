@@ -1,0 +1,54 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.retangulo_principal {
+    background-color: rgb(243, 216, 242);
+    width: 50%;
+    height: 1200px;
+    margin: 7%;
+    position: relative;
+    border: 2px dashed #cc8191;
+}
+
+/* barra */
+
+::-webkit-scrollbar {
+  width: 60px;
+}
+ 
+::-webkit-scrollbar-track {
+  background: #ddb4d6;
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #d283d4;
+  border-radius: 10px;
+  border: 3px solid #d89dd8;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e466d9;
+}
+
+.maricss img {
+    position: absolute;
+    top: -2%;
+    left: 43%;
+    width: 80px;
+    width: 650px;
+    height: 300px;
+}
+
+.mariestrela img {
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    width: 80px;
+    width: 400px;
+    height: 560px;
+}
+
